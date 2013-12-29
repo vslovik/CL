@@ -1,0 +1,133 @@
+
+Linguistic data for the texts:                   
+corpus_wsj.txt                                   	corpus_cnn.txt                                  
+________________________________________________ 	________________________________________________ 
+
+
+1. i 20 token piu' frequenti 
+
+the                     0.0449826989619          	the                     0.0432977461447         
+to                      0.0266639527783          	to                      0.0330170027679         
+a                       0.0250356197842          	you                     0.020462633452          
+of                      0.0234072867901          	I                       0.019474100435          
+and                     0.0215754121718          	that                    0.0181890075129         
+in                      0.0177081213108          	is                      0.0175958877026         
+'s                      0.0135355180134          	a                       0.0172004744958         
+that                    0.0091593730918          	's                      0.0160142348754         
+for                     0.00895583146754         	and                     0.015816528272          
+The                     0.00824343578262         	of                      0.013839462238          
+was                     0.00732749847344         	it                      0.0121589561091         
+Mr.                     0.00702218603704         	in                      0.0111704230921         
+he                      0.00681864441278         	on                      0.00958877026493        
+on                      0.00681864441278         	for                     0.00948991696323        
+her                     0.00630979035213         	this                    0.00929221035983        
+n't                     0.00630979035213         	have                    0.00919335705813        
+is                      0.0059027071036          	we                      0.00899565045473        
+who                     0.00539385304295         	going                   0.00780941083432        
+with                    0.00539385304295         	n't                     0.00761170423092        
+
+2. le 10 PoS piu' frequenti 
+
+NN                      0.158864237737           	NN                      0.125148279953          
+NNP                     0.123753307551           	IN                      0.0980624752867         
+IN                      0.115204559332           	DT                      0.0952945828391         
+DT                      0.0937309179727          	NNP                     0.0943060498221         
+NNS                     0.0673722776308          	PRP                     0.0906484776592         
+JJ                      0.0539385304295          	RB                      0.0582245947015         
+VBD                     0.0526155098718          	VBP                     0.0569395017794         
+PRP                     0.0390799918583          	VB                      0.0465599051008         
+RB                      0.0336861388154          	JJ                      0.0453736654804         
+
+3. i 10 trigrammi di token piu' frequenti 
+
+Ms. Dhaka 's            0.00115176752016         	going to be             0.00167869733087        
+the prime minister      0.000708780012404        	I do n't                0.0013429578647         
+Golden Dawn was         0.000531585009303        	're going to            0.00117508813161        
+Wall Street Journal     0.000531585009303        	are going to            0.000923283531979       
+The Wall Street         0.000442987507752        	not going to            0.000923283531979       
+according to the        0.000442987507752        	's going to             0.000839348665436       
+Golden Dawn 's          0.000354390006202        	is going to             0.000839348665436       
+Mr. Kalashnikov said    0.000354390006202        	BEGIN VIDEO CLIP        0.000671478932348       
+World War II            0.000354390006202        	In the CROSSFIRE        0.000671478932348       
+
+4. 10 bigrammi con probabilita' congiunta massima 
+
+Golden Dawn             0.00407548507132         	I think                 0.00411280846063        
+Ms. Dhaka               0.00274652254806         	the president           0.00369313412792        
+did n't                 0.00150615752636         	I 'm                    0.00285378546248        
+Mr. Mund                0.00124036502171         	do n't                  0.00235017626322        
+Dhaka 's                0.00115176752016         	it 's                   0.00226624139668        
+do n't                  0.000974572517055        	we 're                  0.00209837166359        
+he said                 0.000974572517055        	is a                    0.00176263219741        
+prime minister          0.000885975015505        	minimum wage            0.00176263219741        
+Mr. Kalashnikov         0.000797377513954        	you 're                 0.00167869733087        
+
+5. 10 bigrammi con probabilita' condizionata massima 
+
+a sub-inspector         1.0                      	BE IN                   1.0                     
+the U.S.                1.0                      	the middle              1.0                     
+had released            1.0                      	months ago              1.0                     
+Santa Claus             1.0                      	the U.S.                1.0                     
+Holy Land               1.0                      	how often               1.0                     
+San Francisco           1.0                      	their hands             1.0                     
+Lunch Break             1.0                      	opposite directions     1.0                     
+a Hero                  1.0                      	a minute                1.0                     
+is emerging             1.0                      	emphatically clear      1.0                     
+
+6. 10 bigrammi con forza associativa massima 
+
+Golden Dawn             873.353075096            	I think                 872.190925646           
+Ms. Dhaka               566.201597957            	the president           708.736945494           
+did n't                 320.623016156            	I 'm                    547.170299631           
+Dhaka 's                247.626230947            	do n't                  523.813391105           
+Mr. Mund                210.95333728             	it 's                   504.700017573           
+do n't                  202.582278464            	we 're                  443.020647817           
+he said                 181.174694045            	That 's                 386.095063922           
+prime minister          171.322258574            	minimum wage            377.933178083           
+St. Nicholas            157.948535703            	is a                    375.897852359           
+
+7. i 20 nomi propri di persona piu' frequenti 
+
+Dhaka                   0.0931034482759          	Obama                   0.0993788819876         
+Golden Dawn             0.0896551724138          	Obamacare               0.0807453416149         
+Mr.                     0.0551724137931          	Marc                    0.0496894409938         
+Mr. Mund                0.0413793103448          	Will Cain               0.0434782608696         
+Nicholas                0.0206896551724          	Will                    0.0372670807453         
+Mr. Samaras             0.0206896551724          	John Feehery            0.0372670807453         
+Mr. Erdogan             0.0172413793103          	John                    0.0310559006211         
+Mr. Kalashnikov         0.0172413793103          	Neera Tanden            0.0310559006211         
+Golden                  0.0172413793103          	Neera                   0.0310559006211         
+Mr. Bayraktar           0.0137931034483          	Penny Lee               0.0310559006211         
+Mr. Fyssas              0.0137931034483          	Paul Ryan               0.0248447204969         
+Samaras                 0.0137931034483          	Penny                   0.0248447204969         
+Kalashnikov             0.0137931034483          	Marc Lamont Hill        0.0248447204969         
+Mr. Lagos               0.0103448275862          	Chris Christie          0.0248447204969         
+Gabrielle Toledano      0.0103448275862          	Van                     0.0186335403727         
+Santa Claus             0.0103448275862          	Listen                  0.0186335403727         
+Young                   0.0103448275862          	Van Jones               0.0186335403727         
+Getty                   0.00689655172414         	Glenn Beck              0.0186335403727         
+Mr. Kasidiaris          0.00689655172414         	Nancy Pelosi            0.0186335403727         
+
+8. i 20 nomi propri di luogo piu' frequenti 
+
+Greece                  0.0695187165775          	TANDEN                  0.160714285714          
+Delhi                   0.0534759358289          	CAIN                    0.154761904762          
+India                   0.0534759358289          	GINGRICH                0.0714285714286         
+Greek                   0.0320855614973          	Obama                   0.047619047619          
+Jerusalem               0.0320855614973          	American                0.047619047619          
+Turkey                  0.0267379679144          	Obamacare               0.0357142857143         
+Aristovoulos            0.0267379679144          	Americans               0.0357142857143         
+U.S.                    0.0267379679144          	Massachusetts           0.0238095238095         
+St. Nicholas            0.0213903743316          	America                 0.0238095238095         
+Indian                  0.0213903743316          	Cupp                    0.0238095238095         
+Russian                 0.0213903743316          	Everybody               0.0178571428571         
+Athens                  0.0213903743316          	Next                    0.0119047619048         
+Egyptian                0.0213903743316          	CUPP                    0.0119047619048         
+Fr                      0.0160427807487          	Listen                  0.0119047619048         
+Nicholas                0.0106951871658          	New Year                0.0119047619048         
+Izhevsk                 0.0106951871658          	Eastern                 0.0119047619048         
+U.S.S.R.                0.0106951871658          	New York City           0.0119047619048         
+New Democracy           0.0106951871658          	U.S.                    0.0119047619048         
+Photo                   0.0106951871658          	Kentucky                0.0119047619048         
+________________________________________________ 	________________________________________________ 
+

@@ -1,0 +1,14 @@
+
+Statistical characteristics of the texts:                    	corpus_wsj.txt       	corpus_cnn.txt      
+____________________________________________________________ 	____________________ 	____________________ 
+
+1. il numero di token                                        	11287                	11914               
+2. la lunghezza media dei token (caratteri)                  	4.7596875634         	4.26692991115       
+3. la lunghezza media delle frasi (token)                    	21.0971962617        	15.6557161629       
+4. la grandezza del vocabolario del testo                    	3018                 	1793                
+5. la lunghezza media dei token del vocabolario (caratteri)  	6.62657388999        	6.07975460123       
+6. la ricchezza lessicale                                    	0.4395               	0.3145              
+7. il rapporto tra Sostantivi e Verbi                        	0.679812573214       	0.567018852289      
+8. la densita' lessicale                                     	0.597456373854       	0.56091585791       
+____________________________________________________________ 	____________________ 	____________________ 
+
